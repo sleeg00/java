@@ -1,0 +1,21 @@
+package scan_;
+import java.util.Scanner;
+public class scam_ 
+{
+	public static void main(String []args)
+	{
+		System.out.println("이름, 국가, 나이를 빈칸으로 분리하여 입력");
+		Scanner scanner =new Scaneer(System.in);
+		
+		String Name = scanner.next();
+		System.out.print("이름은 "+ Name +", ");
+		
+		String city = scanner.next();
+		System.out.print("국가는 "+ city +", ");
+		
+		int Age = scanner.nextInt();
+		System.out.print("나이는" + Age +", ");
+		scanner.close();
+		
+	}
+}

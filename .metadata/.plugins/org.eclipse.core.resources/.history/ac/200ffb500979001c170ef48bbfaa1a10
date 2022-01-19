@@ -1,0 +1,9 @@
+package scan_;
+import java.util.Scanner;
+public class scam_ 
+{
+	public static void main(String []args)
+	{
+		
+	}
+}
